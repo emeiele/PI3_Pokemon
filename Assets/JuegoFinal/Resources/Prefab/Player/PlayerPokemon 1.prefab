@@ -120,6 +120,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &3286981771088141990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3967044195388476521}
+  - component: {fileID: 3034938070884154963}
+  m_Layer: 0
+  m_Name: PlantMunition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3967044195388476521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3286981771088141990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.4, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6059735866297074909}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3034938070884154963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3286981771088141990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630e29e2d5c980a4e8acb2712f0daf58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsingNestedRotation: 0
+  isUsingInputRotation: 0
+  inputRotation: {fileID: 0}
+  isUsingOverrideDirection: 0
+  overrideDirection: {x: 0, y: 0}
+  previewMunitionHierarchy: {fileID: 0}
+  stages:
+  - Rate: 4
+    MunitionPrefab: {fileID: 218150916915199121, guid: c0863d7b55c13db4d808d051c5176484,
+      type: 3}
+    MunitionScale: {x: 0.3, y: 0.3, z: 0.3}
+    ScatterAngle: 0
+    BulletsNumber: 0
+    ArcAngleSpread: 0
+    FiringSFX:
+      ac: {fileID: 8300000, guid: e1db11a4faf0da543bcf48295b3f2ab4, type: 3}
+      volume: 1.94
+    FiringSfxCoolDownTime: 0
 --- !u!1 &3562918837564932416
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,7 +622,10 @@ MonoBehaviour:
   shield: 0
   invincibilityTimeAfterSpawn: 0
   isPassthroughWhenInvincible: 0
-  munitionWeapons: []
+  munitionWeapons:
+  - {fileID: 6005601796157196616}
+  - {fileID: 6034160700924965673}
+  - {fileID: 3034938070884154963}
   particleWeapons: []
   isTriggeringMunitionFXWhenHit: 1
   collisionDamage: 0
@@ -625,6 +690,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewFXsHierarchy: {fileID: 0}
   fxs: []
+--- !u!1 &6005601796157196622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6005601796157196623}
+  - component: {fileID: 6005601796157196616}
+  m_Layer: 0
+  m_Name: FireMunition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6005601796157196623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005601796157196622}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.62, y: 0.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6059735866297074909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6005601796157196616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005601796157196622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630e29e2d5c980a4e8acb2712f0daf58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsingNestedRotation: 0
+  isUsingInputRotation: 0
+  inputRotation: {fileID: 0}
+  isUsingOverrideDirection: 0
+  overrideDirection: {x: 0, y: 0}
+  previewMunitionHierarchy: {fileID: 0}
+  stages:
+  - Rate: 4
+    MunitionPrefab: {fileID: 218150916915199121, guid: 315e9287ff3b49a4393a84ae694c1f07,
+      type: 3}
+    MunitionScale: {x: 1, y: 1, z: 1}
+    ScatterAngle: 0
+    BulletsNumber: 0
+    ArcAngleSpread: 0
+    FiringSFX:
+      ac: {fileID: 8300000, guid: 706224b304f1ba64a9d0e9d0765f4079, type: 3}
+      volume: 1.94
+    FiringSfxCoolDownTime: 0
 --- !u!1 &7099766673425872587
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +779,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6005601796157196623}
+  - {fileID: 4329877074326913777}
+  - {fileID: 3967044195388476521}
   m_Father: {fileID: 7779430412110143345}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -825,3 +955,65 @@ Transform:
   m_Father: {fileID: 7271763261140744856}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9065985111251393338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4329877074326913777}
+  - component: {fileID: 6034160700924965673}
+  m_Layer: 0
+  m_Name: WaterMunition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4329877074326913777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065985111251393338}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.4, y: 0.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6059735866297074909}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6034160700924965673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9065985111251393338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630e29e2d5c980a4e8acb2712f0daf58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isUsingNestedRotation: 0
+  isUsingInputRotation: 0
+  inputRotation: {fileID: 0}
+  isUsingOverrideDirection: 0
+  overrideDirection: {x: 0, y: 0}
+  previewMunitionHierarchy: {fileID: 0}
+  stages:
+  - Rate: 4
+    MunitionPrefab: {fileID: 218150916915199121, guid: 6b338a72db91e6a469e0a6673cbbe8a1,
+      type: 3}
+    MunitionScale: {x: 0.5, y: 0.5, z: 0.5}
+    ScatterAngle: 0
+    BulletsNumber: 0
+    ArcAngleSpread: 0
+    FiringSFX:
+      ac: {fileID: 8300000, guid: e1db11a4faf0da543bcf48295b3f2ab4, type: 3}
+      volume: 1.94
+    FiringSfxCoolDownTime: 0

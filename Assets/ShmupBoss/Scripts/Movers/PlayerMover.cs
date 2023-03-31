@@ -57,6 +57,7 @@ namespace ShmupBoss
         {
             base.Update();
             KeepInBoundries();
+
         }
 
         private void KeepInBoundries()

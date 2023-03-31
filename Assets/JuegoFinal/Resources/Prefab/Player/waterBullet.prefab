@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2864091634145433792}
   - component: {fileID: 8506284276255852232}
   m_Layer: 0
-  m_Name: Bullet_1Pau
+  m_Name: waterBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9ea867ef89ba3e046bbddc97f59121d0, type: 3}
+  m_Sprite: {fileID: -1909032721, guid: 22b176ee6fd02b1479398e32cbac7cc5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
