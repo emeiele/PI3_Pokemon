@@ -26,4 +26,6 @@ MonoBehaviour:
   minRandomSpawnPosition: 0
   maxRandomSpawnPosition: 1
   enemyPrefabs:
-  - {fileID: 1609819119886292658, guid: 80187d7fa37e841af8e0531714c10645, type: 3}
+  - {fileID: 6411410927271876926, guid: eaa18094614ac0f46a0e6f9a59e8c799, type: 3}
+  - {fileID: 6411410927271876926, guid: 75889705efbd443468614f9220302d81, type: 3}
+  - {fileID: 6411410927271876926, guid: 437275d1dc0992140bffad6d09937667, type: 3}

@@ -179,7 +179,7 @@ MonoBehaviour:
     BulletsNumber: 0
     ArcAngleSpread: 0
     FiringSFX:
-      ac: {fileID: 8300000, guid: e1db11a4faf0da543bcf48295b3f2ab4, type: 3}
+      ac: {fileID: 8300000, guid: 930597216dc4604498d664dc6cdcc793, type: 3}
       volume: 1.94
     FiringSfxCoolDownTime: 0
 --- !u!1 &3562918837564932416
@@ -603,9 +603,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1166141, y: -0.18252647}
+  m_Offset: {x: -0.023019284, y: -0.033164144}
   serializedVersion: 2
-  m_Radius: 0.37324548
+  m_Radius: 0.23315477
 --- !u!114 &4397464992380366816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9801d7f03d023742ae632e4d26bf042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 50
   shield: 0
   invincibilityTimeAfterSpawn: 0
   isPassthroughWhenInvincible: 0
@@ -631,7 +631,7 @@ MonoBehaviour:
   collisionDamage: 0
   canTakeCollisions: 0
   collisionCoolDownTime: 0
-  maxHealth: 10
+  maxHealth: 50
   maxShield: 0
   weaponsUpgradeStage: 0
   maxWeaponsUpgradeStage: 0
@@ -749,7 +749,7 @@ MonoBehaviour:
     BulletsNumber: 0
     ArcAngleSpread: 0
     FiringSFX:
-      ac: {fileID: 8300000, guid: 706224b304f1ba64a9d0e9d0765f4079, type: 3}
+      ac: {fileID: 8300000, guid: 8154212fecad77945bc6e00cacefc713, type: 3}
       volume: 1.94
     FiringSfxCoolDownTime: 0
 --- !u!1 &7099766673425872587
