@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  firstMoveDistance: 4
+  firstMoveDistance: 1.5
   maneuverDistance: 0.85
   timeBeforeManeuver: 0.5
   timeForNextManeuver: 0.5

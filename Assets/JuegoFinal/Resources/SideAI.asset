@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eef59000605ba844ab9b36760ea8492, type: 3}
   m_Name: SideAI
   m_EditorClassIdentifier: 
-  NumberOfEnemiesToSpawn: 10
+  NumberOfEnemiesToSpawn: 100
   isSpawningEnemiesInRandomOrder: 0
   TimeBetweenEnemies: 1
   isRandomTimeBetweenEnemies: 0
@@ -27,5 +27,5 @@ MonoBehaviour:
   maxRandomSpawnPosition: 1
   enemyPrefabs:
   - {fileID: 6411410927271876926, guid: eaa18094614ac0f46a0e6f9a59e8c799, type: 3}
-  - {fileID: 6411410927271876926, guid: 75889705efbd443468614f9220302d81, type: 3}
-  - {fileID: 6411410927271876926, guid: 437275d1dc0992140bffad6d09937667, type: 3}
+  - {fileID: 7782792369411006636, guid: 071ddb14c92b6496ba42da7714c30dd2, type: 3}
+  - {fileID: 5185750684503168616, guid: c436ee0a84a1447cc965caeb97e2da72, type: 3}
