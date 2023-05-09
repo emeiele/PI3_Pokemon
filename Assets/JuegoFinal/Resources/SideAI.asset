@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eef59000605ba844ab9b36760ea8492, type: 3}
   m_Name: SideAI
   m_EditorClassIdentifier: 
-  NumberOfEnemiesToSpawn: 100
-  isSpawningEnemiesInRandomOrder: 0
-  TimeBetweenEnemies: 1
-  isRandomTimeBetweenEnemies: 0
-  minTimeBetweenEnemies: 0
-  maxTimeBetweenEnemies: 0
+  NumberOfEnemiesToSpawn: 45
+  isSpawningEnemiesInRandomOrder: 1
+  TimeBetweenEnemies: 2
+  isRandomTimeBetweenEnemies: 1
+  minTimeBetweenEnemies: 1
+  maxTimeBetweenEnemies: 2.5
   depthIndex: 41
   spawnSide: 3
   spawnSideOffset: 0
@@ -29,3 +29,9 @@ MonoBehaviour:
   - {fileID: 6411410927271876926, guid: eaa18094614ac0f46a0e6f9a59e8c799, type: 3}
   - {fileID: 7782792369411006636, guid: 071ddb14c92b6496ba42da7714c30dd2, type: 3}
   - {fileID: 5185750684503168616, guid: c436ee0a84a1447cc965caeb97e2da72, type: 3}
+  - {fileID: 6411410927271876926, guid: 75889705efbd443468614f9220302d81, type: 3}
+  - {fileID: 41703301748216968, guid: 930fc2fdf5c664bf9a768ad9aac5ff76, type: 3}
+  - {fileID: 536055531022057907, guid: 186a96ac48f6b45e7b7c0e96196d8449, type: 3}
+  - {fileID: 6411410927271876926, guid: 437275d1dc0992140bffad6d09937667, type: 3}
+  - {fileID: 5740327691880516656, guid: d77feb8e569274b1ca324fedc6df7929, type: 3}
+  - {fileID: 7521738603072384724, guid: 8b1c3eb8fd4df4ec7a43c937de37210d, type: 3}

@@ -51,7 +51,7 @@ MonoBehaviour:
   overrideDirection: {x: 0, y: 0}
   previewMunitionHierarchy: {fileID: 0}
   stage:
-    Rate: 1
+    Rate: 0.4
     MunitionPrefab: {fileID: 218150916915199121, guid: 6b338a72db91e6a469e0a6673cbbe8a1,
       type: 3}
     MunitionScale: {x: 0.8, y: 0.8, z: 0.8}

@@ -457,27 +457,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4778005630925743980, guid: 37fc33246f971e240a85652557affb0a,
-        type: 3}
-      propertyPath: stage.MunitionPrefab
-      value: 
-      objectReference: {fileID: 218150916915199121, guid: 315e9287ff3b49a4393a84ae694c1f07,
-        type: 3}
-    - target: {fileID: 4778005630925743980, guid: 37fc33246f971e240a85652557affb0a,
-        type: 3}
-      propertyPath: stage.MunitionScale.x
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4778005630925743980, guid: 37fc33246f971e240a85652557affb0a,
-        type: 3}
-      propertyPath: stage.MunitionScale.y
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4778005630925743980, guid: 37fc33246f971e240a85652557affb0a,
-        type: 3}
-      propertyPath: stage.MunitionScale.z
-      value: 1.4
-      objectReference: {fileID: 0}
     - target: {fileID: 7796011837387080558, guid: 37fc33246f971e240a85652557affb0a,
         type: 3}
       propertyPath: m_Name

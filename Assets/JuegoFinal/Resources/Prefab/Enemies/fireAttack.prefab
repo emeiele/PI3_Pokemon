@@ -52,10 +52,10 @@ MonoBehaviour:
   overrideDirection: {x: 0, y: 0}
   previewMunitionHierarchy: {fileID: 0}
   stage:
-    Rate: 1
-    MunitionPrefab: {fileID: 218150916915199121, guid: 6b338a72db91e6a469e0a6673cbbe8a1,
+    Rate: 0.4
+    MunitionPrefab: {fileID: 218150916915199121, guid: 315e9287ff3b49a4393a84ae694c1f07,
       type: 3}
-    MunitionScale: {x: 0.8, y: 0.8, z: 0.8}
+    MunitionScale: {x: 1.4, y: 1.4, z: 1.4}
     ScatterAngle: 0
     BulletsNumber: 0
     ArcAngleSpread: 0
