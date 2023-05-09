@@ -407,6 +407,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: plantAttack
       objectReference: {fileID: 0}
+    - target: {fileID: 4176028356421555239, guid: 4ad878f7e038af84bb49e263a3af3423,
+        type: 3}
+      propertyPath: stage.FiringSFX.ac
+      value: 
+      objectReference: {fileID: 8300000, guid: 930597216dc4604498d664dc6cdcc793, type: 3}
     - target: {fileID: 6965208636866029738, guid: 4ad878f7e038af84bb49e263a3af3423,
         type: 3}
       propertyPath: m_RootOrder

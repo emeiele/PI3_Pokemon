@@ -180,7 +180,7 @@ MonoBehaviour:
     ArcAngleSpread: 0
     FiringSFX:
       ac: {fileID: 8300000, guid: 930597216dc4604498d664dc6cdcc793, type: 3}
-      volume: 1.94
+      volume: 0.88
     FiringSfxCoolDownTime: 0
 --- !u!1 &3562918837564932416
 GameObject:
@@ -750,7 +750,7 @@ MonoBehaviour:
     ArcAngleSpread: 0
     FiringSFX:
       ac: {fileID: 8300000, guid: 8154212fecad77945bc6e00cacefc713, type: 3}
-      volume: 1.94
+      volume: 0.73
     FiringSfxCoolDownTime: 0
 --- !u!1 &7099766673425872587
 GameObject:
@@ -1014,6 +1014,6 @@ MonoBehaviour:
     BulletsNumber: 0
     ArcAngleSpread: 0
     FiringSFX:
-      ac: {fileID: 8300000, guid: e1db11a4faf0da543bcf48295b3f2ab4, type: 3}
-      volume: 1.94
+      ac: {fileID: 8300000, guid: 0dc75ee2943e88342b46d98b7d3e6b64, type: 3}
+      volume: 0.79
     FiringSfxCoolDownTime: 0

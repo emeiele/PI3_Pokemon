@@ -72,5 +72,10 @@ PrefabInstance:
       propertyPath: firstMoveDistance
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8270112601210847534, guid: 437275d1dc0992140bffad6d09937667,
+        type: 3}
+      propertyPath: stage.FiringSFX.ac
+      value: 
+      objectReference: {fileID: 8300000, guid: 930597216dc4604498d664dc6cdcc793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 437275d1dc0992140bffad6d09937667, type: 3}
